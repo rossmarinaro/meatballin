@@ -1,0 +1,60 @@
+/*css*/
+
+@font-face {
+    font-family: "Bangers";
+    src: url("fonts/bangers-regular-webfont.woff") format("woff"),
+         url("fonts/bangers-regular-webfont.woff2") format("woff2");
+
+}
+@font-face {
+    font-family:  "Digitizer";
+    src: url("fonts/digitizer.woff") format("woff");
+}
+#index{ 
+ 
+	background-image: url(assets/backgrounds/background-main.gif);
+	background-size: cover;
+	margin: 0; 
+	}
+#retry{
+	background-image: url(assets/backgrounds/background-main.gif);
+	background-size: cover;
+	margin: 0; 
+}
+html, body{
+	background: #000000;
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh !important;
+	overflow: hidden;
+}
+img{ 
+	
+	width: 15%;
+	position: absolute;
+	left: 45%;
+	margin-top: 220px;					
+}
+h1, noscript{
+	position: absolute;
+	left: 250px;
+	top: 300px;
+	font-family: 'Bangers' , 'Arial Black', sans-serif;
+	color: #FFFFFF;
+}
+
+/* @media only screen and (orientation:landscape){
+	body, #pastaboss{
+        float: right;
+
+		transform: rotate(90deg);
+		transform-origin: left top;
+		width: 100vh;
+		overflow-x: hidden;
+		position: absolute;
+		top: 100%;
+		left: 0;
+	}
+} */
+	
